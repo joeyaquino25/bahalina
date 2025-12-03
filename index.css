@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: 
+		linear-gradient(
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.9)
+		),
+		url("./images/coco-bg.jpg");
+
+	color: white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+/*navbar section*/
+.navbar-brand{
+	color: #D6C000;
+	font-weight: bold;
+}
+
+/*landing section*/
+#landing{
+	margin-top: 15vh;
+}
+
+#landing-img{
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.product-name{
+	font-weight: bold;
+}
+
+/*footer section*/
+#footer{
+	background-color: black;
+}
+
+.to-order{
+	color: #D6C000;
+	font-weight: bold;
+}
+
+
+
